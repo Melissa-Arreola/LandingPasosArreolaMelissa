@@ -23,9 +23,9 @@ nav a{
 }
 
 header{
-    background: #73C8A9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ad67d9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373B44, #fd77ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373B44, #bc5cdd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: auto; 
     padding:48px;
     width: 100%;
@@ -49,7 +49,7 @@ img{
 
 .textos{
     width:50%;
-    color:#ffff;
+    color:rgb(0, 0, 0);
 }
 
 .textos h1{
@@ -79,40 +79,9 @@ img{
 .wave{
     height: 100px;
     width:100%;
-    background: #73C8A9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e768ec;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373B44, #dd77ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373B44, #c571e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
-
-@keyframes moverIzquierda{
-    0%{
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
-}
-
-@keyframes moverDerecha{
-    0%{
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
-}
-@keyframes arriba{
-    0%{
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
-}
+ 
